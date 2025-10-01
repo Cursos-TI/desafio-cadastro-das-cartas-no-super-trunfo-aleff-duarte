@@ -95,5 +95,13 @@ int main() {
     printf("PIB per Capita: %d\n", pib1 > pib2);
     printf("SUPER PODER: %d\n", superpoder1 > superpoder2);
 
+    //DETERMINANDO A CARTA VENCEDORA
+    printf("\nComparando o atributo PIB per capita das cartas, fica determinado que: \n");
+    if (ppc1 > ppc2){
+        printf("\nA carta 1 venceu!!!");
+    } else {
+        printf("\nA carta 2 venceu!!!");
+    }
+    
     return 0;
 }
